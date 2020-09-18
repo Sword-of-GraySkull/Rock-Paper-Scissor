@@ -1,0 +1,346 @@
+body.loginPage {
+    background-color: #fff5d7;
+    margin: 0;
+    padding: 100px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+div.container {
+    display: block;
+    margin: 4% 20% 10% 20%;
+    color: rgba(82, 33, 21, 0.71);
+    line-height: 3.2rem;
+    padding: 30px;
+}
+
+div.row {
+    display: flex;
+    width: 100%;
+/*    flex-wrap: wrap;*/
+    align-items: center;
+}
+
+div.row::after {
+    display: table;
+    clear: both;
+}
+
+div.row-2 {
+    display:block;
+    margin-left: 40px;
+}
+
+div.row-3 {
+    display: block;
+    margin-left: 150px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 102px;
+    font-weight: 1000;
+}
+
+/*#########   Registration   ############*/
+
+div.box {
+    display: block;
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    margin: auto;
+    background-color: rgba(250, 198, 156, 0.45);
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba( 0, 0, 0, 0.5);
+}
+
+.img {
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.col-12, {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 500;
+    color: rgba(82, 33, 21, 0.71);
+
+}
+
+h2.playerName {
+    display: inline-block;
+}
+
+sup {
+    font-weight: bolder;
+    color: red;
+    font-size: 20px;
+}
+
+.field1 {
+    text-align: center;
+}
+
+input.inputField {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    color: rgba(82, 33, 21, 0.71);
+    font-weight: 450;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.inputField {
+    outline-color: rgba(82, 33, 21, 0.71);
+}
+
+
+.btn-register {
+    margin: 40px 10px 10px 10px;
+    padding: 10px;
+    width: 320px;
+    font-size: 1.25em;
+    border: 1px solid transparent;
+    font-family: inherit;
+    font-size: 27px;
+    font-weight: 550;
+    color: #f2e5e5;
+    border-radius: .3rem;
+    background-color: rgba(82, 33, 21, 0.71);
+}
+
+.btn-register:hover {
+    box-shadow: 1px 1px 5px 5px rgba(82, 33, 21, 0.3);
+}
+
+.btnLink {
+    text-decoration: none;
+}
+
+
+.helpLink {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    margin: 10px 0 0 400px;
+}
+
+.helpLink:hover {
+    text-decoration: underline; 
+}
+
+.guest {
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.GuestLink {
+    text-decoration: none;
+    text-align: center;
+    display: table;
+    margin: auto;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgba(82, 33, 21, 0.71)
+}
+
+.GuestLink:hover {
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+
+/*##########        GAME PAGE         ##########*/
+
+
+body.gamePage {
+    background-color: #fff5d7;
+    margin: auto; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: rgba(82, 33, 21, 0.71);
+}
+
+ul.navFloat {
+    background-color: rgba(82, 33, 21, 0.71);
+    margin: 4% 20%;
+    overflow: hidden;
+    padding: 30px 60px;
+    text-align: center;
+    border-radius: 48px;
+    box-shadow: 2px 2px 4px 3px rgba(82, 33, 21, 0.71);
+}
+
+ul.navFloat li {
+    list-style: none;
+    display: inline-flex;
+    margin: auto;
+    
+}
+
+ul.navFloat li a {
+    display: block;
+    color: rgba(82, 33, 21, 0.71);
+    
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+ul.navFloat li a:hover {
+    color: rgb(204, 203, 203);
+}
+
+span.initText {
+    display: block;
+    margin: 140px 0px 100px;
+    font-size: 100px;
+    font-weight: 1000;
+    text-align: center;
+    color: rgba(82, 33, 21, 0.71);
+}
+
+hr {
+    height: 3px;
+    border-style: solid;
+}
+
+.container-fluid {
+    margin-top: 8%;
+    width: 100%;
+}
+
+h1.playerText {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.btn-ctrl {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: .5rem 1rem;
+    font-size: 27px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #f2e5e5;
+    background-color: rgba(82, 33, 21, 0.71);
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.gameImg {
+    display: block;
+    text-align: center;
+}
+
+div.leftside-col-6 h1.playerText {
+    margin-top: -85px;
+}
+
+div.result-box {
+    margin: 100px 0;
+    padding: 20px;
+}
+
+div.result-left {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 50%; 
+    background: radial-gradient(white, grey);
+    
+}
+
+div.result-right {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    background: radial-gradient(white, grey);
+    
+}
+
+
+
+div.result-left-1 {
+    margin-top: 20px;
+    width: 100px; 
+    height: 100px;
+    float: right;
+    background: radial-gradient(lime, forestgreen); 
+    border-radius: 50%; 
+    box-shadow: 1px 1px 8px 5px rgba(6, 172, 6, 0.8);
+}
+
+div.result-right-1 {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(red, darkred);   border-radius: 50%; 
+    box-shadow: 1px 1px 8px 5px rgba(206, 15, 22, 0.88);
+}
+
+/*################# Account Creation  ########################*/
+
+body.acc {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(250, 198, 156, 0.45);
+}
+
+.acc-container-fluid {
+    width:100%;
+}
+
+.acc {
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.acc-header {
+/*    background: linear-gradient(rgba(82, 33, 21, 0.93), rgba(250, 198, 156, 0.45));*/
+    background: linear-gradient(rgba(82, 33, 21, 0.93),rgba(82, 33, 21, 0.63));
+    height: 450px;
+}
+
+.profileImg {
+    display: block;
+    margin: auto;
+    margin-left: -50px;
+    margin-top: 60px;
+    border-radius: 50%;  
+}
+ 

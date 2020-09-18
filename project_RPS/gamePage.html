@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Rock Paper Scissors</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    
+       
+    <body class="gamePage">
+        <nav> 
+                <ul class="navFloat">
+                       <li><a href="gamePage.html">Home</a></li>
+                       <li style="margin: 0 16%;"><a href="#gameRules">Game Rules</a></li>
+                       <li><a href="#help">Help</a></li>
+                </ul>
+        </nav>
+        
+        <span class="initText">LETS PLAY NOW</span>
+        
+        <hr>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 leftside-col-6">
+                    <h1 class="playerText">Computer</h1>
+                    
+                    <div class="gameImg"><img id="img1-left" width="200px" height="200px" src="1.png" style="margin-bottom: -40px; visibility: hidden;" alt="Rock"></div>
+                    
+                    <div class="gameImg"><img id="img2-left" width="200px" height="200px" src="2.png" style="margin-top: -200px;
+                    margin-bottom: -20px; visibility: hidden;" alt="Paper"></div>
+                    
+                    <div class="gameImg"><img id="img3-left" width="200px" height="200px" src="3.png" style="margin-top: -240px; visibility: hidden;" alt="Scissors"></div>
+                    
+                    <script type="text/javascript" src="game.js">
+                        //showVisibility
+                    </script>
+                    
+                    <script type="text/javascript" src="game.js">
+                        //showImg
+                       
+                    </script>
+                    
+                </div>
+                
+                <div class="col-6">
+                    <h1 class="playerText">Player</h1>
+                    
+                    <div class="gameImg"><img id="img1-right" width="200px" height="200px" src="1.png" style="margin-bottom: -40px; visibility: hidden" alt="Rock"></div>
+                    
+                    <div class="gameImg"><img id="img2-right" width="200px" height="200px" src="2.png" style="margin-top: -200px;
+                    margin-bottom: -20px; visibility: hidden;" alt="Paper"></div>
+                    
+                    <div class="gameImg"><img id="img3-right" width="200px" height="200px" src="3.png" style="margin-top: -240px; visibility: hidden;" alt="Scissors"></div>
+                    
+                    
+                    
+                    <div class="row" style="margin-top: 60px;">
+                        <div class="col-4"><button class="btn-ctrl" type="button" onclick="showImg1();">Rock</button></div>
+                        
+                        <script type="text/javascript" src="game.js">
+                            //showImg1
+                        </script>
+                        
+                        <div class="col-4"><button class="btn-ctrl" type="button" onclick="showImg2();">Paper</button></div>
+                        
+                        <script type="text/javascript" src="game.js">
+                            //showImg2
+                        </script>
+                        
+                        <div class="col-4"><button class="btn-ctrl" type="button" onclick="showImg3();">Scissors</button></div>
+                        
+                        <script type="text/javascript" src="game.js">
+                            //showImg3
+                            
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="result-box">
+            <div class="row">
+                <div class="col-5">
+                    <div style="font-size: 40px; text-align: right; margin-right: 15px;" >Win</div>
+                    <div id="result-win" class="result-left" ></div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-5">
+                    <div style="font-size: 40px; margin-left: 5px;">Lose</div>
+                    <div id="result-lose" class="result-right"></div>                    
+                </div>
+                
+                <script type="text/javascript" src="game.js">
+                    //showResult_left
+                    //showResult_right
+                    
+                </script>
+                
+            </div>
+        </div>
+        
+        
+        
+    </body>
+</html>
